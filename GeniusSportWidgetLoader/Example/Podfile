@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GeniusSportWidgetLoader_Example' do
+  pod 'GeniusSportWidgetLoader', :path => '../'
+
+  target 'GeniusSportWidgetLoader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

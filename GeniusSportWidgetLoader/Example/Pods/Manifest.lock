@@ -1,0 +1,16 @@
+PODS:
+  - GeniusSportWidgetLoader (0.1.0)
+
+DEPENDENCIES:
+  - GeniusSportWidgetLoader (from `../`)
+
+EXTERNAL SOURCES:
+  GeniusSportWidgetLoader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GeniusSportWidgetLoader: 13df5e32af05b5b369936a3aa4c966d9e1549260
+
+PODFILE CHECKSUM: dd9217ca59e5b094353b2ba754748e528c9cf229
+
+COCOAPODS: 1.4.0
