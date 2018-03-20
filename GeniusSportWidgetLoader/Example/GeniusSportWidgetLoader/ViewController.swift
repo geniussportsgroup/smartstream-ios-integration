@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let wigetView = GSWiget(url: url, delegate: self)
+        let wigetView = GSWidget(url: url, delegate: self)
         
         view = wigetView
     }
