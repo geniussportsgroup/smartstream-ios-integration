@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-open class GSWiget: WKWebView {
+open class GSWidget: WKWebView {
     
     weak var delegate: GSWidgetListener?
     
@@ -36,7 +36,7 @@ open class GSWiget: WKWebView {
  
 }
 
-extension GSWiget: WKScriptMessageHandler {
+extension GSWidget: WKScriptMessageHandler {
 
     public func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         guard let responseString = message.body as? String else { return }
