@@ -1,6 +1,6 @@
 # GeniusSportWidgetLoader
 
-[![CI Status](http://img.shields.io/travis/Ironworks/GeniusSportWidgetLoader.svg?style=flat)](https://travis-ci.org/Ironworks/GeniusSportWidgetLoader)
+[![CI Status](http://img.shields.io/travis/GeniusSport/GeniusSportWidgetLoader.svg?style=flat)](https://travis-ci.org/GeniusSport/GeniusSportWidgetLoader)
 [![Version](https://img.shields.io/cocoapods/v/GeniusSportWidgetLoader.svg?style=flat)](http://cocoapods.org/pods/GeniusSportWidgetLoader)
 [![License](https://img.shields.io/cocoapods/l/GeniusSportWidgetLoader.svg?style=flat)](http://cocoapods.org/pods/GeniusSportWidgetLoader)
 [![Platform](https://img.shields.io/cocoapods/p/GeniusSportWidgetLoader.svg?style=flat)](http://cocoapods.org/pods/GeniusSportWidgetLoader)
@@ -22,7 +22,7 @@ pod 'GeniusSportWidgetLoader'
 
 ## Author
 
-Ironworks, trevor@ironworksmedialimited.co.uk
+Genius Sport, trevor.doodes@betgenius.com
 
 ## License
 
