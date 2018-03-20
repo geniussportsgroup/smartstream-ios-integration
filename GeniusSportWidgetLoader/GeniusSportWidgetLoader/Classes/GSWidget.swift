@@ -16,7 +16,9 @@ open class GSWidget: WKWebView {
     /**
      Convenience initializer for widget loader
      
-     @param url: URL of the widget you wish to load
+     - Parameter url: URL of the widget you wish to load
+     - Parameter delegate: An object that conforms to the GSWidgetListener protocol
+     
     */
     public convenience init(url: URL, delegate: GSWidgetListener) {
         let webConfiguration = WKWebViewConfiguration()
