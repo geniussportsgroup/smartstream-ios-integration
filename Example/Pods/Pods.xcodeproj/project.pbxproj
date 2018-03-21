@@ -12,7 +12,6 @@
 		2B8F1EB76B224726F70D360BEF0D4D5A /* Pods-GeniusSportWidgetLoader_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50C406C6E43DF1D0664783B5D67FC03D /* Pods-GeniusSportWidgetLoader_Tests-dummy.m */; };
 		3D78800CF80A3F2E29EB6EB0E376AC12 /* GeniusSportWidgetLoader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FDE8A31C47AD6F7472B2A84049C133 /* GeniusSportWidgetLoader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E2E3FDD34ED9BF20A724B2FC84B5D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5A0F7CF7394A8EA5563C062F7DF5902C /* GSWidgetLoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F6339D53E4428F5F6398FBD1E5C349 /* GSWidgetLoaderViewController.swift */; };
 		5E5AC1D97812CC7042A763B382363040 /* Pods-GeniusSportWidgetLoader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D262533C1540BED1AED172CF133E2E2A /* Pods-GeniusSportWidgetLoader_Example-dummy.m */; };
 		612E81989BB5A035238FA1980A44B26C /* GSWidgetListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FE9B6F71FFA2F9159403AAE698A555 /* GSWidgetListener.swift */; };
 		8E57D69A20C3EE8149666DF9D28F7D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -35,15 +34,15 @@
 		02409635609CCCDC111A0C7D559DE7B6 /* Pods-GeniusSportWidgetLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeniusSportWidgetLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		14CA2142C1BD8CA3FD10089571A70787 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2013782DF30ED26C7238D9349F416A44 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		217AF51780726C4E1BC86C1B8CACCCEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		217AF51780726C4E1BC86C1B8CACCCEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		27CAB816ADBEE8D0DCE437CAA828FB4B /* Pods-GeniusSportWidgetLoader_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeniusSportWidgetLoader_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		2AD1D13F47F84C61E862F0016CD31BC0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E6D26042A0B0BFD02B6EECBE854754 /* GeniusSportWidgetLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GeniusSportWidgetLoader-dummy.m"; sourceTree = "<group>"; };
-		3B4C411412BCBA21D04788D7232CE662 /* GeniusSportWidgetLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GeniusSportWidgetLoader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B4C411412BCBA21D04788D7232CE662 /* GeniusSportWidgetLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GeniusSportWidgetLoader.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4548F1A7430487CD27CC217A50CECB95 /* Pods-GeniusSportWidgetLoader_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeniusSportWidgetLoader_Example-resources.sh"; sourceTree = "<group>"; };
 		50C406C6E43DF1D0664783B5D67FC03D /* Pods-GeniusSportWidgetLoader_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeniusSportWidgetLoader_Tests-dummy.m"; sourceTree = "<group>"; };
-		52AAD07AB8AA83086C997935A5B73CCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		60D2BCE0693A0B56BB7BD789D53000C6 /* Pods_GeniusSportWidgetLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeniusSportWidgetLoader_Example.framework; path = "Pods-GeniusSportWidgetLoader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AAD07AB8AA83086C997935A5B73CCD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60D2BCE0693A0B56BB7BD789D53000C6 /* Pods_GeniusSportWidgetLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusSportWidgetLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FE9B6F71FFA2F9159403AAE698A555 /* GSWidgetListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSWidgetListener.swift; path = GeniusSportWidgetLoader/Classes/GSWidgetListener.swift; sourceTree = "<group>"; };
 		62B3B59005FDA4B00F3E95D77AD7CAD8 /* Pods-GeniusSportWidgetLoader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GeniusSportWidgetLoader_Example.modulemap"; sourceTree = "<group>"; };
 		62D5D49D9EA0AB222D9D660C34AA0B8F /* Pods-GeniusSportWidgetLoader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeniusSportWidgetLoader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -56,16 +55,15 @@
 		89A2134C691C712F3FD1CCDD811DE004 /* Pods-GeniusSportWidgetLoader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeniusSportWidgetLoader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8F391C6511A687C68DD78416254DB2B4 /* GeniusSportWidgetLoader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GeniusSportWidgetLoader.modulemap; sourceTree = "<group>"; };
 		8F9D7313C38301F4462B32A55512ED64 /* Pods-GeniusSportWidgetLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeniusSportWidgetLoader_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3F9370AD59B63768284DA77E286BADA /* Pods-GeniusSportWidgetLoader_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GeniusSportWidgetLoader_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A5F877D385DE3A2100CF376EA169EDFF /* Pods-GeniusSportWidgetLoader_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeniusSportWidgetLoader_Tests-resources.sh"; sourceTree = "<group>"; };
 		B24714E7E8B325ED5E984DF7777BA32C /* GeniusSportWidgetLoader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GeniusSportWidgetLoader.xcconfig; sourceTree = "<group>"; };
 		B7801486AB4D232775340A329ABEE483 /* Pods-GeniusSportWidgetLoader_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GeniusSportWidgetLoader_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BEFE472B5FDADA849E49450E514E9371 /* Pods-GeniusSportWidgetLoader_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GeniusSportWidgetLoader_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D262533C1540BED1AED172CF133E2E2A /* Pods-GeniusSportWidgetLoader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GeniusSportWidgetLoader_Example-dummy.m"; sourceTree = "<group>"; };
-		DB7F81A0B42E98DA7201F8F573D6B1A1 /* Pods_GeniusSportWidgetLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GeniusSportWidgetLoader_Tests.framework; path = "Pods-GeniusSportWidgetLoader_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6F6339D53E4428F5F6398FBD1E5C349 /* GSWidgetLoaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GSWidgetLoaderViewController.swift; path = GeniusSportWidgetLoader/Classes/GSWidgetLoaderViewController.swift; sourceTree = "<group>"; };
-		EBFDECCCAD592425AD1589423EA3E7ED /* GeniusSportWidgetLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GeniusSportWidgetLoader.framework; path = GeniusSportWidgetLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB7F81A0B42E98DA7201F8F573D6B1A1 /* Pods_GeniusSportWidgetLoader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeniusSportWidgetLoader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBFDECCCAD592425AD1589423EA3E7ED /* GeniusSportWidgetLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GeniusSportWidgetLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED1B2840022778E7CA1E6BA672E764ED /* Pods-GeniusSportWidgetLoader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GeniusSportWidgetLoader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F8FDE8A31C47AD6F7472B2A84049C133 /* GeniusSportWidgetLoader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GeniusSportWidgetLoader-umbrella.h"; sourceTree = "<group>"; };
 		FD28C1B20ACC1F777F074F27FB0FF46B /* Pods-GeniusSportWidgetLoader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GeniusSportWidgetLoader_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 			children = (
 				84E7DBAD3C948D5C3F3E3220872432A6 /* GSWidget.swift */,
 				61FE9B6F71FFA2F9159403AAE698A555 /* GSWidgetListener.swift */,
-				E6F6339D53E4428F5F6398FBD1E5C349 /* GSWidgetLoaderViewController.swift */,
 				4D80DAB1A3BB82F6F6D9E6349D14625C /* Pod */,
 				ABA9B92C1022D48027A4F84B04AD66F1 /* Support Files */,
 			);
@@ -344,7 +341,6 @@
 				BF6D946565B4264B0928EA3B9915B02E /* GeniusSportWidgetLoader-dummy.m in Sources */,
 				03912468D91CCC28C360E4D666AF4FAA /* GSWidget.swift in Sources */,
 				612E81989BB5A035238FA1980A44B26C /* GSWidgetListener.swift in Sources */,
-				5A0F7CF7394A8EA5563C062F7DF5902C /* GSWidgetLoaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
