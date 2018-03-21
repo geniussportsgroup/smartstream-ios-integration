@@ -47,12 +47,19 @@ open class GSWidget: WKWebView {
         webConfiguration.userContentController = contentController
         self.init(frame: .zero, configuration: webConfiguration)
         self.delegate = delegate
+        self.scrollView.delegate = self
         
         contentController.add(self, name: "iosMessageListener")
         contentController.add(self, name: "iosErrorListener")
         self.load(URLRequest(url: url))
     }
  
+}
+
+extension GSWidget: UIScrollViewDelegate {
+    public func viewForZooming(in scrollView: UIScrollView) -> UIView? {
+        return nil
+    }
 }
 
 extension GSWidget: WKScriptMessageHandler {
