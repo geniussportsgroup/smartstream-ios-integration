@@ -2,7 +2,7 @@
 import UIKit
 import GeniusSportWidgetLoader
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
     var url: URL {
         let urlString = "https://betfred.betstream.betgenius.com/betstream-view/fixturelist/betfredinplay/html"
         return URL(string: urlString)!
@@ -25,13 +25,19 @@ class ViewController: UIViewController {
 
 extension ViewController: GSWidgetListener {
     func onMessage(type: String, message: [String : Any]) {
-        print("Type: \(type), message: \(message)")
+        let alertMessage = type == "addToBetslip" ? "Selection added to betslip" : "Selection Removed from betslip"
+        showAlert(message: alertMessage)
     }
     
     func onError(type: String, rawMessage: String) {
         print("Type: \(type), message: \(rawMessage)")
     }
     
-    
+    private func showAlert(message: String) {
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+        alert.addAction(okAction)
+        self.present(alert, animated: true, completion: nil)
+    }
 }
 
