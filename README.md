@@ -136,14 +136,14 @@ $ pod trunk push GeniusSportWidgetLoader.podspec
 Only owners can push the spec, but adding an owner is just a case of using the 'pod trunk add-owner' command.
 
 ```code
-$ pod trunk add-owner ARAnalytics <email address>
+$ pod trunk add-owner GeniusSportWidgetLoader <email address>
 ```
 The email address used will need to have a registered account set up on trunk in order to add them to a library.
 
 Owners can be removed using the following command.
 
 ```code
-$ pod trunk remove-owner <email address>
+$ pod trunk remove-owner GeniusSportWidgetLoader <email address>
 ```
 
 ## Author
