@@ -82,7 +82,7 @@ func onError(type: String, rawMessage: String)
 ```
 ## Pod Maintenance
 
-To maintain the pod open the Example/GeniusSportWidgetLoader.xcworkspace. Opening the project this way enables you to be able to edit both the pod and the example app in the same project.
+To maintain the pod open the Example/GeniusSportWidgetLoader.xcworkspace. Opening the project this way enables you to edit both the pod and the example app in the same project.
 
 The code for the pod can be found in the Development Pods folder of the Pods project in XCODE.
 
