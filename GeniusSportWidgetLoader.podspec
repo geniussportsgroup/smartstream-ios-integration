@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GeniusSportWidgetLoader'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'GeniusSportWidgetLoader.'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'GeniusSportWidgetLoader/Classes/**/*'
+  s.swift_version = '4.0'
   
   # s.resource_bundles = {
   #   'GeniusSportWidgetLoader' => ['GeniusSportWidgetLoader/Assets/*.png']
