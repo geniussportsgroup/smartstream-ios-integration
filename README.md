@@ -80,6 +80,11 @@ func onMessage(type: String, message: [String: Any])
 
 func onError(type: String, rawMessage: String)
 ```
+
+The onMessage type is a string which represents the message type, e.g. "addToBetslip".
+
+The message parameter contains a dictionary of key-value pairs. The selection details are accessed the using the 'selection' key.
+
 ## Pod Maintenance
 
 To maintain the pod open the Example/GeniusSportWidgetLoader.xcworkspace. Opening the project this way enables you to edit both the pod and the example app in the same project.
