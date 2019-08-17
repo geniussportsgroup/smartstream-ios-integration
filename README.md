@@ -28,7 +28,7 @@ To use the pod in your own project create your XCODE project, open a terminal an
 
 ``````ruby
 pod init
-```
+``````
 
 This will create a 'Podfile' file, edit this to include the GeniusSportWidgetLoader pod. Update the name of the targets to to be the same as your project:
 
